@@ -17,8 +17,7 @@ namespace ContraBand
             Console.WriteLine("Hur många bilar vill du kolla?");
 
             int amountOfCars = CheckIfNumber(Console.ReadLine(), 100);
-
-
+            
 
             for (int i = 0; i < amountOfCars; i++)
             {
@@ -134,7 +133,7 @@ namespace ContraBand
                 if (validNumber == false)
                 {
 
-                    Console.WriteLine("That's not a valid number");
+                    Console.WriteLine("Detdär är inte ett godtagbart nummer");
 
 
                     input = Console.ReadLine();
